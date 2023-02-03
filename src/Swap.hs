@@ -16,7 +16,7 @@ module Swap
     , Action (..)
     ) where
 
-import Ledger (adaSymbol, adaToken, mkValidatorScript, unValidatorScript, Script, Validator, TxInfo (..), ScriptContext (..), txInInfoResolved, TxOut(txOutDatum), OutputDatum (NoOutputDatum), toData)
+import Plutus.V2.Ledger.Api (adaSymbol, adaToken, mkValidatorScript, unValidatorScript, Script, Validator, TxInfo (..), ScriptContext (..), txInInfoResolved, TxOut(txOutDatum), OutputDatum (NoOutputDatum), toData)
 
 import Plutus.V2.Ledger.Contexts (valuePaidTo, txSignedBy)
 
