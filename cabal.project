@@ -122,13 +122,9 @@ source-repository-package
   location: https://github.com/input-output-hk/cardano-wallet
   tag: 8972e238f0344be585c2317c302341cd5a94e490
   subdir:
-    lib/cli
-    lib/core
-    lib/core-integration
     lib/dbvar
     lib/launcher
     lib/numeric
-    lib/shelley
     lib/strict-non-empty-containers
     lib/test-utils
     lib/text-class
