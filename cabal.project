@@ -121,16 +121,11 @@ source-repository-package
   location: https://github.com/input-output-hk/cardano-wallet
   tag: ae7569293e94241ef6829139ec02bd91abd069df
   subdir:
-    lib/cli
-    lib/core
-    lib/core-integration
-    lib/dbvar
-    lib/launcher
-    lib/numeric
-    lib/shelley
-    lib/strict-non-empty-containers
-    lib/test-utils
     lib/text-class
+    lib/strict-non-empty-containers
+    lib/core
+    lib/test-utils
+    lib/numeric
 -- Should follow cardano-wallet.
 -- More precisally, this should be a version compatible with the current
 -- Cardano mainnet (>=1.35).
