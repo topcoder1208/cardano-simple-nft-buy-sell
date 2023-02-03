@@ -120,7 +120,7 @@ source-repository-package
 source-repository-package
   type: git
   location: https://github.com/input-output-hk/cardano-wallet
-  tag: 8972e238f0344be585c2317c302341cd5a94e490
+  tag: 872a25d12dbab16536771bdc8df944fdef416bf5
 -- Direct dependency.
 -- Should follow cardano-wallet.
 -- More precisally, this should be a version compatible with the current
