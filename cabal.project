@@ -159,6 +159,7 @@ source-repository-package
   tag: e290bf8d0ea272a51e9acd10adc96b4e12e00d37
   subdir:
     eras/alonzo/impl
+    eras/alonzo/test-suite
     eras/babbage/impl
     eras/byron/chain/executable-spec
     eras/byron/crypto
