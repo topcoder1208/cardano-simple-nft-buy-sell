@@ -11,6 +11,24 @@ benchmarks: true
 
 source-repository-package
   type: git
+  location: https://github.com/input-output-hk/plutus-apps.git
+  tag:c2b310968d0915e2af0ea4680186b41ad88ffbe9
+  subdir:
+    plutus-chain-index-core
+    plutus-ledger-constraints
+    plutus-script-utils
+-- Direct dependency.
+-- Are you thinking of updating this tag to some other commit?
+-- Please ensure that the commit you are about to use is the latest one from
+-- the *develop* branch of this repo:
+--   * <https://github.com/input-output-hk/iohk-monitoring-framework/commits/develop>
+-- (not master!)
+--
+-- In particular we rely on the code from this PR:
+--  * <https://github.com/input-output-hk/iohk-monitoring-framework/pull/622>
+-- being merged.
+source-repository-package
+  type: git
   location: https://github.com/input-output-hk/plutus.git
   subdir:
     freer-extras
