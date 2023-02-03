@@ -120,6 +120,7 @@ source-repository-package
     lib/test-utils
     lib/text-class
     lib/wallet
+    lib/wai-middleware-logging
 -- Should follow cardano-wallet.
 -- More precisally, this should be a version compatible with the current
 -- Cardano mainnet (>=1.35).
