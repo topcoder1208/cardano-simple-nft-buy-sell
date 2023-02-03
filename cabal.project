@@ -14,7 +14,6 @@ source-repository-package
   location: https://github.com/input-output-hk/plutus-apps.git
   tag:c2b310968d0915e2af0ea4680186b41ad88ffbe9
   subdir:
-    plutus-chain-index-core
     plutus-ledger-constraints
     plutus-script-utils
 -- Direct dependency.
