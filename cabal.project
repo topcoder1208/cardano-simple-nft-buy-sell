@@ -170,6 +170,7 @@ source-repository-package
     eras/shelley/impl
     eras/shelley/test-suite
     eras/shelley-ma/impl
+    eras/shelley-ma/test-suite
     libs/cardano-data
     libs/cardano-ledger-core
     libs/cardano-ledger-pretty
